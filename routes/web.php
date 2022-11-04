@@ -5,6 +5,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
 use App\Http\Livewire\FreefireIndex;
+use App\Http\Livewire\FreefireItemDetail;
+use App\Http\Livewire\FreefirePayment;
+use App\Http\Livewire\OrdersIndex;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,12 +24,18 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/freefire', FreefireIndex::class)->name('freefire.index');
 
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
     'verified'
 ])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
+        // Route::get('/', function () {
+            //     return view('home');
+            // })->name('dashboard');
+    Route::get('/freefire/{id}/detail', FreefireItemDetail::class)->name('freefire.detail');
+
+    Route::get('/freefire/order/{item}/payment', FreefirePayment::class)->name('freefire.payment');
+
+    Route::get('/orders', OrdersIndex::class)->name('orders.index');
 });

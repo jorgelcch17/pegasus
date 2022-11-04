@@ -7,9 +7,9 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="grid grid-cols-5">
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
                 <a class="bg-white border-2 border-blue-200 p-2 hover:shadow-lg" href="{{ route('freefire.index') }}">
-                    <img class="" src="{{ asset('image/freefire.webp') }}" alt="freefire">
+                    <img class="w-full aspect-square" src="{{ asset('image/freefire.webp') }}" alt="freefire">
                     <span class="block font-bold text-center pt-2">Free Fire</span>
                 </a>
             </div>
