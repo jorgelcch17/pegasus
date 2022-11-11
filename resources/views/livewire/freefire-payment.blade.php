@@ -39,6 +39,7 @@
                             </svg>
                             Contactar
                         </a>
+                        <button wire:click="test">prueba</button>
                     </div>
                 </div>
             </div>
