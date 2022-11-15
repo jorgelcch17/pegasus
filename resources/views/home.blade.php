@@ -14,7 +14,7 @@
                     <img class="w-full aspect-square" src="{{ asset('image/freefire.webp') }}" alt="freefire">
                     <span class="block font-bold text-center pt-2">Free Fire</span>
                 </a>
-                <a class="bg-white border-2 border-yellow-600 p-2 hover:shadow-lg" href="">
+                <a class="bg-white border-2 border-yellow-600 p-2 hover:shadow-lg" href="{{ route('mobile-legend.index') }}">
                     <img class="w-full aspect-square" src="{{ asset('image/mobile_legend.png') }}" alt="mobile legend">
                     <span class="block font-bold text-center pt-2">Mobile Legend</span>
                 </a>

@@ -1,19 +1,20 @@
 <?php
 
-namespace App\Http\Livewire;
+namespace App\Http\Livewire\MobileLegends;
 
 use Livewire\Component;
-use App\Models\FfOrder;
 
-class FreefirePayment extends Component
+use App\Models\MobileLegendOrder;
+
+class MlPayment extends Component
 {
     public $item;
 
     protected $listeners = ['payOrder'];
 
-    public function mount(FfOrder $item){
+    public function mount(MobileLegendOrder $item){
         if($item->order_status == 'approved'){
-            return redirect()->route('freefire.index');
+            return redirect()->route('mobile-legend.index');
         }     
         $this->item = $item;   
     }
@@ -24,11 +25,11 @@ class FreefirePayment extends Component
 
         //enviando un flash message
         session()->flash('message', 'El pago se ha realizado con éxito');
-        return redirect()->route('freefire.index');
+        return redirect()->route('mobile-legend.index');
     }
 
     public function render()
     {
-        return view('livewire.freefire-payment')->layout('layouts.app');
+        return view('livewire.mobile-legends.ml-payment');
     }
 }

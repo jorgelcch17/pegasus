@@ -14,11 +14,11 @@
                         <div class="flex flex-col justify-center">
                             {{-- <img class="w-40 h-40 rounded-full" src="{{ asset('storage/items') }}/freefire.webp"
                                 alt="{{ $item->name }}"> --}}
-                                <h2 class="text-xl font-bold">Orden-{{ $item->id }}</h2>
+                            <h2 class="text-xl font-bold">Orden-{{ $item->id }}</h2>
 
                             <div class="flex items-center gap-2">
-                                <h2 class="text-lg text-gray-800">{{ $item->freefire_item->name }}</h2>
-                                <span class="font-semibold text-lg text-yellow-500">{{ $item->freefire_item->bonus }}</span>
+                                <h2 class="text-lg text-gray-800">{{ $item->mobile_legend_item->name }}</h2>
+                                <span class="font-semibold text-lg text-yellow-500">{{ $item->mobile_legend_item->bonus }}</span>
                             </div>
                             <h2 class="text-lg text-gray-800">USD {{ $item->price }}</h2>
 
@@ -27,7 +27,7 @@
                         <div>
                             <div id="paypal-button-container"></div>
                         </div>
-                        
+
                     </div>
                     <div>
                         <p>Si eres de Bolivia y gustas otra forma de pago puedes contactarnos al siguiente whatsapp</p>
@@ -64,11 +64,11 @@
                 });
             },
             // Finalize the transaction after payer approval
-            onApprove: (data,  actions) => {
+            onApprove: (data, actions) => {
                 return actions.order.capture().then((details) => {
                     // Show a success message to the buyer
                     Livewire.emit('payOrder');
-                });                
+                });
             }
         }).render('#paypal-button-container');
     </script>

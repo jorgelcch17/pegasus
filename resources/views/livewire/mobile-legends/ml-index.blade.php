@@ -2,7 +2,7 @@
     <x-slot name="header">
         <div class="flex justify-between">
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                <a class="hover:underline" href="{{ route('home') }}">Home</a> / Free Fire
+                <a class="hover:underline" href="{{ route('home') }}">Home</a> / Mobile Legends
             </h2>
         </div>
     </x-slot>
@@ -24,23 +24,19 @@
                     </span>
                 </div>
             @endif
-            <div>
-                <p class="pb-4"><span class="text-red-400">Nota:</span> su cuenta debe pertenecer a la region
-                    SUDAMERICA</p>
-            </div>
             <div class="bg-white shadow-xl sm:rounded-lg"> {{-- se le quito la propiedad overflow-hidden --}}
                 <div class="divide-y px-2">
                     @foreach ($items as $item)
-                        <a href="{{ route('freefire.detail', $item) }}"
+                        <a href="{{ route('mobile-legend.detail', $item) }}"
                             class="flex items-center justify-between gap-2 p-2">
                             <div class="flex">
-                                <img class="w-10 h-10 rounded-full"
-                                    src="{{ asset('storage/items') }}/{{ $item->image }}" alt="{{ $item->name }}">
+                                <img class="w-10 h-10 rounded-full" src="{{ asset('image') }}/{{ $item->image }}"
+                                    alt="{{ $item->name }}">
                                 <div class="ml-2 text-sm flex flex-col justify-center">
                                     <div>
                                         <label for="item-{{ $item->id }}"
                                             class="font-medium text-gray-900 dark:text-gray-300">{{ $item->name }}</label>
-                                        <span class="font-semibold text-yellow-500">{{ $item->bonus }}</span>
+                                        <span class="font-semibold text-green-600">{{ $item->bonus }}</span>
                                     </div>
                                     @if ($item->description)
                                         <p class="text-gray-500 dark:text-gray-400">{{ $item->description }}</p>

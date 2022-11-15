@@ -3,7 +3,7 @@
         <div class="flex justify-between">
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
                 <a class="hover:underline" href="{{ route('home') }}">Home</a> / <a class="hover:underline"
-                    href="{{ route('freefire.index') }}">Free Fire</a> / Detalle
+                    href="{{ route('mobile-legend.index') }}">Mobile Legends</a> / Detalle
             </h2>
         </div>
     </x-slot>
@@ -16,7 +16,7 @@
                         <h2 class="mb-4 font-bold">Detalle de la compra</h2>
                         <div class="">
                             <div>
-                                <p><span class="font-semibold">Item :</span> {{ $selectedItem->name }} <span class="text-semibold text-yellow-500">{{ $selectedItem->bonus }}</span></p>
+                                <p><span class="font-semibold">Item :</span> {{ $selectedItem->name }} <span class="text-semibold text-green-600">{{ $selectedItem->bonus }}</span></p>
                                 <p><span class="font-semibold">Precio :</span> US {{ $selectedItem->price }}</p>
                                 <p><span class="font-semibold">Metodo de pago :</span> Paypal</p>
                             </div>
@@ -26,21 +26,21 @@
                         <div class="grid gap-6 mb-6 md:grid-cols-2">
                             <div>
                                 <label for="first_name"
-                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">ID</label>
-                                <input type="number" id="first_name" wire:model="id_account"
+                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">User ID</label>
+                                <input type="number" id="first_name" wire:model="game_user_id"
                                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="914782698764" required>
-                                @error('id_account')
+                                     required>
+                                @error('game_user_id')
                                     <span class="text-red-500 text-sm">{{ $message }}</span>
                                 @enderror
                             </div>
                             <div>
                                 <label for="last_name"
-                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Nickname</label>
-                                <input type="text" id="last_name" wire:model="nickname_account"
+                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Zone ID</label>
+                                <input type="text" id="last_name" wire:model="zone_id"
                                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="DiegoRTX" required>
-                                @error('nickname_account')
+                                    required>
+                                @error('zone_id')
                                     <span class="text-red-500 text-sm">{{ $message }}</span>
                                 @enderror
                             </div>

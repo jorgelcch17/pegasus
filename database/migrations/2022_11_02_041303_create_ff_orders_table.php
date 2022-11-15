@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('id_account');
             $table->string('nickname_account');
             $table->string('price');
-            $table->string('order_status')->enum('pending','approved', 'completed', 'canceled')->default('pending');
+            $table->string('order_status')->enum('pending', 'approved', 'completed', 'canceled')->default('pending');
             $table->foreignId('freefire_item_id')->constrained();
             $table->foreignId('user_id')->constrained();
             $table->timestamps();

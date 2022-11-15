@@ -62,4 +62,8 @@ class User extends Authenticatable
     public function ff_orders(){
         return $this->hasMany(FfOrder::class);
     }
+
+    public function ml_orders(){
+        return $this->hasMany(MobileLegendOrder::class);
+    }
 }

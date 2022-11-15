@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('freefire_items', function (Blueprint $table) {
+        Schema::create('mobile_legend_items', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->string('slug');
@@ -33,6 +33,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('freefire_items');
+        Schema::dropIfExists('mobile_legend_items');
     }
 };

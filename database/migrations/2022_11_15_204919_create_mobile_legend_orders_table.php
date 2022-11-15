@@ -13,15 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('freefire_items', function (Blueprint $table) {
+        Schema::create('mobile_legend_orders', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('slug');
-            $table->string('bonus');
-            $table->text('description')->nullable();
-            $table->string('image');
+            $table->string('game_user_id');
+            $table->string('zone_id');
             $table->string('price');
-            $table->boolean('is_active')->default(false);
+            $table->string('order_status')->enum('pending', 'approved', 'completed', 'canceled')->default('pending');
+            $table->foreignId('mobile_legend_item_id')->constrained();
+            $table->foreignId('user_id')->constrained();
             $table->timestamps();
         });
     }
@@ -33,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('freefire_items');
+        Schema::dropIfExists('mobile_legend_orders');
     }
 };
