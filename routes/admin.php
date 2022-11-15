@@ -4,9 +4,9 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
 
-use App\Http\Livewire\admin\Dashboard;
-use App\Http\Livewire\admin\OrdersIndex;
-use App\Http\Livewire\admin\FfItems;
+use App\Http\Livewire\Admin\Dashboard;
+use App\Http\Livewire\Admin\OrdersIndex;
+use App\Http\Livewire\Admin\FfItems;
 
 Route::get('/', Dashboard::class)->name('admin.dashboard');
 
