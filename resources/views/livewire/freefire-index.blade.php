@@ -31,7 +31,7 @@
                     @foreach ($items as $item)
                         <a href="{{ route('freefire.detail', $item) }}" class="flex items-center justify-between gap-2 p-2">
                             <div class="flex">
-                                <img class="w-10 h-10 rounded-full" src="{{ asset('storage/items') }}/freefire.webp"
+                                <img class="w-10 h-10 rounded-full" src="{{ asset('storage/items') }}/{{ $item->image }}"
                                     alt="{{ $item->name }}">
                                 <div class="ml-2 text-sm flex flex-col justify-center">
                                     <label for="item-{{ $item->id }}"
