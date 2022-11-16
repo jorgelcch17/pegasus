@@ -3,7 +3,7 @@
         <div class="splide__track">
             <ul class="splide__list">
                 <li class="splide__slide">
-                    <img class="w-full" src="{{ asset('image/banners/banner_01.png') }}" alt="banners de inicio">
+                    <img class="w-full" src="{{ asset('image/banners/banner_02.png') }}" alt="banners de inicio">
                 </li>
             </ul>
         </div>
