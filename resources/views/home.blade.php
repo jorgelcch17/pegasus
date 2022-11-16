@@ -31,6 +31,17 @@
                     <span class="block font-bold text-center pt-2">Stumble Guys</span>
                 </a>
             </div>
+            <h2 class="pt-6">Servicio Multimedia:</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 mt-2 gap-2">
+                <a class="bg-white border-2 border-gray-700 p-2 hover:shadow-lg" href="">
+                    <img class="w-full aspect-square" src="{{ asset('image/netflix.png') }}" alt="Netflix">
+                    <span class="block font-bold text-center pt-2">Netflix</span>
+                </a>
+                <a class="bg-white border-2 border-yellow-600 p-2 hover:shadow-lg" href="">
+                    <img class="w-full aspect-square" src="{{ asset('image/amazon_prime.png') }}" alt="Amazon prime">
+                    <span class="block font-bold text-center pt-2">Amazon prime</span>
+                </a>
+            </div>
         </div>
     </div>
 </x-app-layout>
