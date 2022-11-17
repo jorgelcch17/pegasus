@@ -95,6 +95,20 @@
                     @endif
                 </div>
             </div>
+            <!-- Search -->
+            <div class="-mr-2 flex items-center sm:hidden">
+                <form action="" class="relative w-max mx-auto">
+                    <input type="search" name="search" id="search"
+                    class="relative peer z-10 bg-transparent w-12 h-12 rounded-full border cursor-pointer 
+                    pl-8 focus:w-full
+                    focus:border-lime-300 focus:cursor-text focus:pl-16 focus:pr-4">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute inset-y-0
+                    my-auto h-8 w-12 px-3.6 stroke-gray-500 border-r border-transparent peerr-focus:border-lime-300 peer-focus:stroke-lime-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+
+            </div>
 
             <!-- Hamburger -->
             <div class="-mr-2 flex items-center sm:hidden">
@@ -105,6 +119,9 @@
                     </svg>
                 </button>
             </div>
+            
+
+
         </div>
     </div>
 
