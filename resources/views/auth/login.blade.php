@@ -1,7 +1,8 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <href="{{ route('home') }}">
+                <img class="w-20 h-20" src="{{ asset('image/logo-blanco.webp') }}" alt="logo">
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
