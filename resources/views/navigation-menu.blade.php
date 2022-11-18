@@ -107,7 +107,7 @@
                     my-auto h-8 w-12 px-3.6 stroke-gray-500 border-r border-transparent peerr-focus:border-lime-300 peer-focus:stroke-lime-500">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                     </svg>
-
+                </form>
             </div>
 
             <!-- Hamburger -->
