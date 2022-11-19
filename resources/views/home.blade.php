@@ -9,9 +9,9 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             @livewire('banner-home')
 
-            <h2 class="pt-6">Recargas mediante ID's:</h2>
+            <h2 class="pt-6 text-center">Recargas mediante ID's:</h2>
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 mt-2 gap-2">
-                <a class="bg-slate-700 border-2 border-blue-200 p-2 hover:shadow-lg" href="{{ route('freefire.index') }}">
+                <a class="bg-slate-700 roundex-x1 p-2 hover:shadow-lg" href="{{ route('freefire.index') }}">
                     <img class="w-full aspect-square" src="{{ asset('image/freefire.webp') }}" alt="freefire">
                     <span class="block font-bold text-center pt-2">Free Fire</span>
                 </a>
