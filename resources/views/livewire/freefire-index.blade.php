@@ -24,7 +24,7 @@
                     </span>
                 </div>
             @endif
-            <div>
+            <div >
                 <p class="p-4"><span class="text-red-400">Nota:</span> su cuenta debe pertenecer a la region
                     SUDAMERICA</p>
             </div>
@@ -82,7 +82,7 @@
                 <div
                     class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-tarjeta-mensual.png') }}"
+                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes110.png') }}"
                             alt="" />
                     </a>
                     <div class="p-3">
@@ -107,7 +107,7 @@
                 <div
                     class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-tarjeta-mensual.png') }}"
+                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes110.png') }}"
                             alt="" />
                     </a>
                     <div class="p-3">
@@ -132,7 +132,7 @@
                 <div
                     class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-tarjeta-mensual.png') }}"
+                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes110.png') }}"
                             alt="" />
                     </a>
                     <div class="p-3">
@@ -157,7 +157,7 @@
                 <div
                     class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-tarjeta-mensual.png') }}"
+                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes110.png') }}"
                             alt="" />
                     </a>
                     <div class="p-3">
@@ -182,7 +182,7 @@
                 <div
                     class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-tarjeta-mensual.png') }}"
+                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes110.png') }}"
                             alt="" />
                     </a>
                     <div class="p-3">
@@ -207,7 +207,7 @@
                 <div
                     class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-tarjeta-mensual.png') }}"
+                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes110.png') }}"
                             alt="" />
                     </a>
                     <div class="p-3">

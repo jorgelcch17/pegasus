@@ -13,7 +13,7 @@
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 mt-2 gap-2">
                 <a class="bg-slate-700 roundex-x1 p-2 hover:shadow-lg" href="{{ route('freefire.index') }}">
                     <img class="w-full aspect-square" src="{{ asset('image/freefire.webp') }}" alt="freefire">
-                    <span class="block font-bold text-center pt-2">Free Fire</span>
+                    <span class="block font-bold text-center pt-2">Garena Free Fire Diamantes</span>
                 </a>
                 <a class="bg-slate-700 border-2 border-yellow-600 p-2 hover:shadow-lg"
                     href="{{ route('mobile-legend.index') }}">
