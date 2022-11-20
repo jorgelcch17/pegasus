@@ -37,7 +37,7 @@
                     </a>
                     <div class="p-3">
                         <a href="#">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE:
+                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900">FREE FIRE: <br>
                                 Tarjeta mensual</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Bs 12.</p>
@@ -62,7 +62,7 @@
                     </a>
                     <div class="p-3">
                         <a href="#">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE:
+                            <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE: <br>
                                 Tarjeta semanal</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Bs 12</p>
@@ -82,12 +82,12 @@
                 <div
                     class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes110.png') }}"
+                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes.jpg') }}"
                             alt="" />
                     </a>
                     <div class="p-3">
                         <a href="#">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE:
+                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE: <br>
                                 100 + 10 diamantes</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Bs 12.</p>
@@ -107,12 +107,12 @@
                 <div
                     class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes110.png') }}"
+                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes.jpg') }}"
                             alt="" />
                     </a>
                     <div class="p-3">
                         <a href="#">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE:
+                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE: <br>
                                 310 + 31 Diamantes</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Bs 12.</p>
@@ -132,12 +132,12 @@
                 <div
                     class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes110.png') }}"
+                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes.jpg') }}"
                             alt="" />
                     </a>
                     <div class="p-3">
                         <a href="#">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE:
+                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE: <br>
                                 520 + 52 Diamantes</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Bs 12.</p>
@@ -157,12 +157,12 @@
                 <div
                     class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes110.png') }}"
+                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes.jpg') }}"
                             alt="" />
                     </a>
                     <div class="p-3">
                         <a href="#">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE:
+                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE: <br>
                                 1050 + 105 Diamantes</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Bs 12.</p>
@@ -182,12 +182,12 @@
                 <div
                     class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes110.png') }}"
+                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes.jpg') }}"
                             alt="" />
                     </a>
                     <div class="p-3">
                         <a href="#">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE:
+                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE: <br>
                                 2160 + 216 Diamantes</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Bs 12.</p>
@@ -207,12 +207,12 @@
                 <div
                     class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
-                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes110.png') }}"
+                        <img class="rounded-t-lg" src="{{ asset('image/free-fire-diamantes.jpg') }}"
                             alt="" />
                     </a>
                     <div class="p-3">
                         <a href="#">
-                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE:
+                            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">FREE FIRE: <br> 
                                 5580 + 558 Diamantes</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Bs 12.</p>
