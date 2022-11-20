@@ -4,10 +4,10 @@
             <div class="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-screen g-6">
                 <div class="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-0 md:mb-0">
                     <a href="/">
-                        <img src="{{ asset('image/logo-negro.png') }}" class="w-full" alt="Logo" />
+                        <img src="{{ asset('image/logo-negro.png') }}" class="w-40" alt="Logo" />
                     </a>
                 </div>
-                <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
+                <div class="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-20 md:mb-0">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
                         <div class="flex flex-row items-center justify-center lg:justify-start">
