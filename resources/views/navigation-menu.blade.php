@@ -100,8 +100,8 @@
                 <form action="" class="relative w-max mx-auto">
                     <input type="search" name="search" id="search"
                         class="relative peer z-10 bg-transparent w-10 h-10 rounded-full border cursor-pointer 
-                    pl-8 focus:w-full
-                    focus:border-lime-300 focus:cursor-text focus:pl-10 focus:pr-4">
+                    pl-8 focus:w-52
+                    focus:border-lime-300 focus:cursor-text focus:pl-10 focus:pr-3">
 
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor"
@@ -111,10 +111,7 @@
                             d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                     </svg>
                 </form>
-            </div>
-
-            <!-- Hamburger -->
-            <div class="-mr-2 flex items-center sm:hidden">
+                 <!-- Hamburger -->
                 <button @click="open = ! open"
                     class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition">
                     <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">

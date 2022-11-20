@@ -4,11 +4,9 @@
             Selecciona un juego:
         </h2>
     </x-slot>
-
-    <div class="lg:py-4">
+    @livewire('banner-home')
+    <div class="lg:py-4 p-2">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            @livewire('banner-home')
-
             <h2 class="pt-6 text-center">Recargas mediante ID's:</h2>
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 mt-2 gap-2">
                 <a class="bg-slate-700 roundex-x1 p-2 hover:shadow-lg" href="{{ route('freefire.index') }}">
@@ -43,17 +41,25 @@
                     <img class="w-full aspect-square" src="{{ asset('image/amazon_prime.png') }}" alt="Amazon prime">
                     <span class="block font-bold text-center pt-2">Amazon prime</span>
                 </a>
-            </div>
 
-            <h2 class="pt-6">Servicio Multimedia:</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 mt-2 gap-2">
-                <a class="bg-slate-700 border-2 border-gray-700 p-2 hover:shadow-lg" href="">
-                    <img class="w-full aspect-square" src="{{ asset('image/netflix.png') }}" alt="Netflix">
-                    <span class="block font-bold text-center pt-2">Netflix</span>
-                </a>
                 <a class="bg-slate-700 border-2 border-yellow-600 p-2 hover:shadow-lg" href="">
-                    <img class="w-full aspect-square" src="{{ asset('image/amazon_prime.png') }}" alt="Amazon prime">
-                    <span class="block font-bold text-center pt-2">Amazon prime</span>
+                    <img class="w-full aspect-square" src="{{ asset('image/DisneyPlus.png') }}" alt="Disney+">
+                    <span class="block font-bold text-center pt-2">Disney+</span>
+                </a>
+
+                <a class="bg-slate-700 border-2 border-yellow-600 p-2 hover:shadow-lg" href="">
+                    <img class="w-full aspect-square" src="{{ asset('image/StarPlus.png') }}" alt="Star+">
+                    <span class="block font-bold text-center pt-2">Star+</span>
+                </a>
+
+                <a class="bg-slate-700 border-2 border-yellow-600 p-2 hover:shadow-lg" href="">
+                    <img class="w-full aspect-square" src="{{ asset('image/HboMax.jpg') }}" alt="Hbo max">
+                    <span class="block font-bold text-center pt-2">Hbo max</span>
+                </a>
+
+                <a class="bg-slate-700 border-2 border-yellow-600 p-2 hover:shadow-lg" href="">
+                    <img class="w-full aspect-square" src="{{ asset('image/YoutubePremium.png') }}" alt="Youtube Premium">
+                    <span class="block font-bold text-center pt-2">Youtube Premium</span>
                 </a>
             </div>
         </div>
