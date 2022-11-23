@@ -1,11 +1,11 @@
 <x-app-layout>
-    {{-- <x-slot name="header">
+    <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             Selecciona un juego:
         </h2> 
-    </x-slot> --}}
+    </x-slot>
     @livewire('banner-home')
-    <div class="lg:py-4 p-2  bg-sky-100">
+    <div class="lg:py-4 p-2">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 ">
             <h2 class="pt-6 font-bold text-xl">Recargas mediante ID's:</h2>
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 mt-2 gap-2">

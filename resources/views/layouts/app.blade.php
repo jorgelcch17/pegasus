@@ -22,7 +22,7 @@
     <body class="font-sans antialiased ">
         
 
-        <div class="min-h-screen bg-slate-800">
+        <div class="min-h-screen bg-sky-100">
             @livewire('navigation-menu')
 
             <!-- Page Heading -->
