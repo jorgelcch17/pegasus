@@ -7,7 +7,7 @@
     @livewire('banner-home')
     <div class="lg:py-1 p-2">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 ">
-            <h2 class="pt-1 font-bold text-xl">Recargas mediante ID</h2>
+            <h2 class="pt-1 font-bold text-xl">Juegos moviles</h2>
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 mt-2 gap-2">
                 <a class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
                     href="{{ route('freefire.index') }}">
@@ -21,13 +21,13 @@
                 </a>
 
                 <a class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
-                    href="{{ route('mobile-legend.index') }}">
+                    href="">
                     <img class="rounded-t-lg"" src="{{ asset('image/pugb-mobile-index.jpg') }}" alt="mobile legend">
                     <span class="block font-bold text-center pt-2 text-black">Pugb Mobile</span>
                 </a>
 
                 <a class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
-                    href="{{ route('freefire.index') }}">
+                    href="">
                     <img class="rounded-t-lg" src="{{ asset('image/call-of-duty-mobile.png') }}" alt="freefire">
                     <span class="block font-bold text-center pt-2 text-black">CoD Mobile</span>
                 </a>
@@ -37,12 +37,6 @@
                     <img class="rounded-t-lg"" src="{{ asset('image/stumble_guys.png') }}" alt="mobile legend">
                     <span class="block font-bold text-center pt-2 text-black">Stumble Guys</span>
                 </a>
-            </div>
-
-            <h2 class="pt-6 font-bold text-xl">Recargas en cuenta directa</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 mt-2 gap-2">
-
-
             </div>
             <h2 class="pt-6 font-bold text-xl">Servicio Multimedia</h2>
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 mt-2 gap-2">

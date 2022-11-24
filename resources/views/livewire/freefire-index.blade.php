@@ -7,11 +7,11 @@
         </div> --}}
         <ul class="flex border-b">
             <li class="mr-1">
-                <a class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold"
+                <a class="text-black inline-block py-2 px-4 hover:text-blue-800 font-semibold"
                     href="{{ route('home') }}">Inicio</a>
             </li>
             <li class="-mb-px mr-1">
-                <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700 font-semibold"
+                <a class="inline-block border-4 border-t border-r rounded-t py-2 px-4 text-blue-700 font-semibold"
                     href="#">Free Fire</a>
             </li>
         </ul>
