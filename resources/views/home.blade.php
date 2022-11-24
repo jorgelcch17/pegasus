@@ -28,13 +28,13 @@
 
                 <a class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
                     href="{{ route('freefire.index') }}">
-                    <img class="rounded-t-lg"" src="{{ asset('image/call-of-duty-mobile.png') }}" alt="freefire">
+                    <img class="rounded-t-lg" src="{{ asset('image/call-of-duty-mobile.png') }}" alt="freefire">
                     <span class="block font-bold text-center pt-2 text-black">CoD Mobile</span>
                 </a>
 
                 <a class="max-w-sm bg-white border border-gray-100 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700"
                     href="">
-                    <img class="rounded-t-lg"" src="{{ asset('image/stumble_guys.webp') }}" alt="mobile legend">
+                    <img class="rounded-t-lg"" src="{{ asset('image/stumble_guys.png') }}" alt="mobile legend">
                     <span class="block font-bold text-center pt-2 text-black">Stumble Guys</span>
                 </a>
             </div>
