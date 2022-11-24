@@ -27,6 +27,8 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/freefire', FreefireIndex::class)->name('freefire.index');
 
+Route::get('/freefire/detalle', FreefireItemDetail::class)->name('freefire.detalle');
+
 Route::get('/mobile-legend', MlIndex::class)->name('mobile-legend.index');
 
 

@@ -1,13 +1,27 @@
 <x-slot name="header">
-    <div class="flex justify-between">
+    {{-- <div class="flex justify-between">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight ">
             <a class="hover:underline" href="{{ route('home') }}">Inicio</a> / <a class="hover:underline"
                 href="{{ route('freefire.index') }}">Free Fire</a> / Detalle
         </h2>
-    </div>
+    </div> --}}
+    <ul class="flex border-b">
+        <li class="mr-1">
+            <a class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold"
+                href="{{ route('home') }}">Inicio</a>
+        </li>
+        <li class="mr-2">
+            <a class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold"
+                href="{{ route('freefire.index') }}">Free Fire</a>
+        </li>
+        <li class="-mb-px mr-1">
+            <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700 font-semibold"
+                href="#">Detalle</a>
+        </li>
+    </ul>
 </x-slot>
 
-<div class="bg-white text-black shadow-xl sm:rounded-lg"> {{-- se le quito la propiedad overflow-hidden --}}
+<div class="shadow-xl sm:rounded-lg"> {{-- se le quito la propiedad overflow-hidden --}}
     <div class="grid grid-cols-1 md:grid-cols-2 p-4 h-full md:divide-x">
         <div class="p-2">
             <div class="flex items-center my-4 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5">

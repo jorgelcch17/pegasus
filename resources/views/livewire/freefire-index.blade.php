@@ -1,10 +1,20 @@
 <div>
     <x-slot name="header">
-        <div class="flex justify-between">
+        {{-- <div class="flex justify-between">
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
                 <a class="hover:underline" href="{{ route('home') }}">Inicio</a> / Free Fire
             </h2>
-        </div>
+        </div> --}}
+        <ul class="flex border-b">
+            <li class="mr-1">
+                <a class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold"
+                    href="{{ route('home') }}">Inicio</a>
+            </li>
+            <li class="-mb-px mr-1">
+                <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700 font-semibold"
+                    href="#">Free Fire</a>
+            </li>
+        </ul>
     </x-slot>
     <div class="py-1">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -37,9 +47,11 @@
                                 alt="{{ $item->name }}" />
                         </a>
                         <div class="p-3">
-                                <label for="item-{{ $item->id }}">
-                                    <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900">{{ $item->name }} <p class="text-red-900"> {{ $item->bonus }}</p></h5>
-                                </label>
+                            <label for="item-{{ $item->id }}">
+                                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900">{{ $item->name }} <p
+                                        class="text-red-900"> {{ $item->bonus }}</p>
+                                </h5>
+                            </label>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 inline-block line-through">Bs
                                 20.</p>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 inline-block">Bs

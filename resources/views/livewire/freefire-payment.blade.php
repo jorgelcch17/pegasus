@@ -1,14 +1,24 @@
 <div>
     <x-slot name="header">
-        <div class="flex justify-between">
+        {{-- <div class="flex justify-between">
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
                 <a class="hover:underline" href="{{ route('home') }}">Inicio</a> / Pagos
             </h2>
-        </div>
+        </div> --}}
+        <ul class="flex border-b">
+            <li class="mr-1">
+                <a class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold"
+                    href="{{ route('home') }}">Inicio</a>
+            </li>
+            <li class="-mb-px mr-1">
+                <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700 font-semibold"
+                    href="#">Pago</a>
+            </li>
+        </ul>
     </x-slot>
-    <div class="py-12">
+    <div class="py-12 p-2">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white shadow-xl sm:rounded-lg"> {{-- se le quito la propiedad overflow-hidden --}}
+            <div class="bg-black shadow-xl sm:rounded-lg"> {{-- se le quito la propiedad overflow-hidden --}}
                 <div class="grid grid-cols-1 md:grid-cols-2 p-4 h-full">
                     <div class="">
                         <div class="flex flex-col justify-center">
